@@ -1,0 +1,18 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Miroslav Maksimovic",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.6",
+    "requestify": "^0.2.5"
+  }
+}
